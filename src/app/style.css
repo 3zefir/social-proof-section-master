@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+.header__title {
+  font-family: "League Spartan";
+  color: hsl(300, 43%, 22%);
+  font-size: 3.4em;
+  position: relative;
+  width: 370px;
+  letter-spacing: -1.4px;
+  line-height: 48px;
+  grid-area: a;
+  top: 80px;
+}
+
+.header__info {
+  font-family: "League Spartan";
+  color: hsl(303, 10%, 53%);
+  position: relative;
+  width: 440px;
+  font-size: 1.15em;
+  letter-spacing: -0.2px;
+  line-height: 25px;
+  grid-area: b;
+  top: 71px;
+}
+
+.header__reviews {
+  width: 400px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: -20px;
+  grid-area: c;
+  left: 56%;
+  top: -165px;
+}
+
+.reviews__image, .tech__image, .guru__image {
+  margin: 0 4px;
+  position: relative;
+  right: 5%;
+}
+
+.reviews__reviews, .reviews__tech, .reviews__guru {
+  color: hsl(300, 43%, 22%);
+  font-family: "League Spartan";
+  position: relative;
+  left: 5%;
+  font-size: 1.1em;
+  letter-spacing: -0.2px;
+}
+
+.reviews__guru {
+  left: 16.7%;
+}
+
+.reviews__tech {
+  left: 28.7%;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main__colton, .main__anne, .main__irene {
+  background-color: hsl(300, 43%, 22%);
+  width: 350px;
+  height: 234px;
+  border-radius: 10px;
+}
+
+.colton__image, .anne__image, .irene__image {
+  border-radius: 50%;
+  width: 2.5em;
+  position: relative;
+  top: 40px;
+  left: 31px;
+  display: inline-block;
+}
+
+.colton__title, .anne__title, .irene__title {
+  color: white;
+  font-family: "League Spartan";
+  display: inline-block;
+  font-size: 1.05em;
+  position: relative;
+  left: 55px;
+  top: 14px;
+}
+
+.colton__subtitle, .anne__subtitle, .irene__subtitle {
+  color: hsl(333, 80%, 67%);
+  font-family: "League Spartan";
+  font-size: 1.05em;
+  font-weight: 400;
+  position: relative;
+  right: 39px;
+  top: 35px;
+  display: inline-block;
+}
+
+.colton__info, .anne__info, .irene__info {
+  display: inline-block;
+  color: hsl(0, 0%, 100%);
+  font-family: "League Spartan";
+  width: 290px;
+  font-size: 1em;
+  position: relative;
+  left: 33px;
+  letter-spacing: 0.2px;
+  top: 30px;
+  line-height: 22px;
+}
+
+.main__irene {
+  margin-top: 15px;
+}
+
+.irene__info {
+  width: 270px;
+}
+
+.main__anne {
+  margin-top: 30px;
+}
+
+.anne__info {
+  width: 280px;
+}
+
+.header--center {
+  position: relative;
+  display: block;
+  width: 1100px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1440px) {
+  .header__reviews {
+    margin-bottom: -73px;
+    left: 54%;
+  }
+}
+@media screen and (max-width: 1124px) {
+  .header__reviews {
+    margin-bottom: -73px;
+    left: 44%;
+  }
+}
+@media screen and (max-width: 950px) {
+  .header__reviews {
+    left: 35%;
+  }
+}
+@media screen and (max-width: 730px) {
+  .header__reviews {
+    top: 50px;
+    left: 5%;
+  }
+  .header__title {
+    left: 5%;
+  }
+  .header__info {
+    left: 5%;
+  }
+  .main {
+    position: relative;
+    top: 140px;
+  }
+  .reviews__guru {
+    left: 5%;
+  }
+  .reviews__tech {
+    left: 5%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
